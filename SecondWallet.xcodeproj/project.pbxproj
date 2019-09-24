@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A826EB01232501700096342D /* BarcodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826EB00232501700096342D /* BarcodeGenerator.swift */; };
+		A826EB0423254DB00096342D /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826EB0323254DB00096342D /* CardCollectionViewCell.swift */; };
+		A826EB0623254FA40096342D /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826EB0523254FA40096342D /* Reusable.swift */; };
+		A826EB0823257D790096342D /* UIColor+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826EB0723257D790096342D /* UIColor+HEX.swift */; };
+		A826EB09232583910096342D /* BarcodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826EB00232501700096342D /* BarcodeGenerator.swift */; };
+		A826EB0D232588180096342D /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826EB0C232588180096342D /* CardItem.swift */; };
+		A826EB0F232588910096342D /* CardItem+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826EB0E232588910096342D /* CardItem+File.swift */; };
+		A8F88A0E2324407A00611F61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F88A0D2324407A00611F61 /* AppDelegate.swift */; };
+		A8F88A102324407A00611F61 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F88A0F2324407A00611F61 /* CardListViewController.swift */; };
+		A8F88A152324407B00611F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F88A142324407B00611F61 /* Assets.xcassets */; };
+		A8F88A182324407B00611F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F88A162324407B00611F61 /* LaunchScreen.storyboard */; };
+		A8F88A232324407C00611F61 /* SecondWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F88A222324407C00611F61 /* SecondWalletTests.swift */; };
+		A8F88A33232440C900611F61 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F88A31232440C900611F61 /* Interface.storyboard */; };
+		A8F88A35232440CA00611F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F88A34232440CA00611F61 /* Assets.xcassets */; };
+		A8F88A3C232440CA00611F61 /* watchapp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A8F88A3B232440CA00611F61 /* watchapp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A8F88A41232440CA00611F61 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F88A40232440CA00611F61 /* InterfaceController.swift */; };
+		A8F88A43232440CA00611F61 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F88A42232440CA00611F61 /* ExtensionDelegate.swift */; };
+		A8F88A45232440CA00611F61 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F88A44232440CA00611F61 /* NotificationController.swift */; };
+		A8F88A47232440CB00611F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F88A46232440CB00611F61 /* Assets.xcassets */; };
+		A8F88A4C232440CB00611F61 /* watchapp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A8F88A2F232440C900611F61 /* watchapp.app */; };
+		A8F88A5C2324414B00611F61 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F88A5B2324414B00611F61 /* NotificationCenter.framework */; };
+		A8F88A5F2324414B00611F61 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F88A5E2324414B00611F61 /* TodayViewController.swift */; };
+		A8F88A622324414B00611F61 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F88A602324414B00611F61 /* MainInterface.storyboard */; };
+		A8F88A662324414B00611F61 /* todaywidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A8F88A592324414B00611F61 /* todaywidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8F88A1F2324407C00611F61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F88A022324407A00611F61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F88A092324407A00611F61;
+			remoteInfo = Pocketholder;
+		};
+		A8F88A3D232440CA00611F61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F88A022324407A00611F61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F88A3A232440CA00611F61;
+			remoteInfo = "watchapp Extension";
+		};
+		A8F88A4A232440CB00611F61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F88A022324407A00611F61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F88A2E232440C900611F61;
+			remoteInfo = watchapp;
+		};
+		A8F88A642324414B00611F61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F88A022324407A00611F61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F88A582324414B00611F61;
+			remoteInfo = todaywidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A8F88A50232440CB00611F61 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A8F88A3C232440CA00611F61 /* watchapp Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A54232440CB00611F61 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A8F88A4C232440CB00611F61 /* watchapp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A6A2324414B00611F61 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A8F88A662324414B00611F61 /* todaywidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A826EB00232501700096342D /* BarcodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeGenerator.swift; sourceTree = "<group>"; };
+		A826EB0323254DB00096342D /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		A826EB0523254FA40096342D /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		A826EB0723257D790096342D /* UIColor+HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HEX.swift"; sourceTree = "<group>"; };
+		A826EB0C232588180096342D /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		A826EB0E232588910096342D /* CardItem+File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardItem+File.swift"; sourceTree = "<group>"; };
+		A8F88A0A2324407A00611F61 /* SecondWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F88A0D2324407A00611F61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8F88A0F2324407A00611F61 /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
+		A8F88A142324407B00611F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8F88A172324407B00611F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8F88A192324407B00611F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F88A1E2324407C00611F61 /* SecondWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F88A222324407C00611F61 /* SecondWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWalletTests.swift; sourceTree = "<group>"; };
+		A8F88A242324407C00611F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F88A2F232440C900611F61 /* watchapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F88A32232440C900611F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A8F88A34232440CA00611F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8F88A36232440CA00611F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F88A3B232440CA00611F61 /* watchapp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchapp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F88A40232440CA00611F61 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A8F88A42232440CA00611F61 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A8F88A44232440CA00611F61 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A8F88A46232440CB00611F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8F88A48232440CB00611F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F88A49232440CB00611F61 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A8F88A592324414B00611F61 /* todaywidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = todaywidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F88A5B2324414B00611F61 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		A8F88A5E2324414B00611F61 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		A8F88A612324414B00611F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A8F88A632324414B00611F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F88A072324407A00611F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A1B2324407C00611F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A38232440CA00611F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A562324414B00611F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F88A5C2324414B00611F61 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A826EAFE232501230096342D /* Untilities */ = {
+			isa = PBXGroup;
+			children = (
+				A826EB00232501700096342D /* BarcodeGenerator.swift */,
+			);
+			path = Untilities;
+			sourceTree = "<group>";
+		};
+		A826EAFF232501430096342D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8F88A0F2324407A00611F61 /* CardListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A826EB0223254D950096342D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A826EB0323254DB00096342D /* CardCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8390E7D233AA50400B19619 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A826EB0E232588910096342D /* CardItem+File.swift */,
+				A826EB0723257D790096342D /* UIColor+HEX.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A8390E7E233AA51400B19619 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A826EB0523254FA40096342D /* Reusable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		A8390E7F233AA5C500B19619 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F88A142324407B00611F61 /* Assets.xcassets */,
+				A8F88A162324407B00611F61 /* LaunchScreen.storyboard */,
+				A8F88A192324407B00611F61 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8F88A012324407900611F61 = {
+			isa = PBXGroup;
+			children = (
+				A8F88A0C2324407A00611F61 /* SecondWallet */,
+				A8F88A212324407C00611F61 /* SecondWalletTests */,
+				A8F88A30232440C900611F61 /* watchapp */,
+				A8F88A3F232440CA00611F61 /* watchapp Extension */,
+				A8F88A5D2324414B00611F61 /* todaywidget */,
+				A8F88A5A2324414B00611F61 /* Frameworks */,
+				A8F88A0B2324407A00611F61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F88A0B2324407A00611F61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F88A0A2324407A00611F61 /* SecondWallet.app */,
+				A8F88A1E2324407C00611F61 /* SecondWalletTests.xctest */,
+				A8F88A2F232440C900611F61 /* watchapp.app */,
+				A8F88A3B232440CA00611F61 /* watchapp Extension.appex */,
+				A8F88A592324414B00611F61 /* todaywidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F88A0C2324407A00611F61 /* SecondWallet */ = {
+			isa = PBXGroup;
+			children = (
+				A8F88A0D2324407A00611F61 /* AppDelegate.swift */,
+				A826EB0C232588180096342D /* CardItem.swift */,
+				A8390E7E233AA51400B19619 /* Protocol */,
+				A8390E7D233AA50400B19619 /* Extensions */,
+				A826EAFE232501230096342D /* Untilities */,
+				A826EAFF232501430096342D /* ViewControllers */,
+				A826EB0223254D950096342D /* Views */,
+				A8390E7F233AA5C500B19619 /* Supporting Files */,
+			);
+			path = SecondWallet;
+			sourceTree = "<group>";
+		};
+		A8F88A212324407C00611F61 /* SecondWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F88A222324407C00611F61 /* SecondWalletTests.swift */,
+				A8F88A242324407C00611F61 /* Info.plist */,
+			);
+			path = SecondWalletTests;
+			sourceTree = "<group>";
+		};
+		A8F88A30232440C900611F61 /* watchapp */ = {
+			isa = PBXGroup;
+			children = (
+				A8F88A31232440C900611F61 /* Interface.storyboard */,
+				A8F88A34232440CA00611F61 /* Assets.xcassets */,
+				A8F88A36232440CA00611F61 /* Info.plist */,
+			);
+			path = watchapp;
+			sourceTree = "<group>";
+		};
+		A8F88A3F232440CA00611F61 /* watchapp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A8F88A40232440CA00611F61 /* InterfaceController.swift */,
+				A8F88A42232440CA00611F61 /* ExtensionDelegate.swift */,
+				A8F88A44232440CA00611F61 /* NotificationController.swift */,
+				A8F88A46232440CB00611F61 /* Assets.xcassets */,
+				A8F88A48232440CB00611F61 /* Info.plist */,
+				A8F88A49232440CB00611F61 /* PushNotificationPayload.apns */,
+			);
+			path = "watchapp Extension";
+			sourceTree = "<group>";
+		};
+		A8F88A5A2324414B00611F61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8F88A5B2324414B00611F61 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8F88A5D2324414B00611F61 /* todaywidget */ = {
+			isa = PBXGroup;
+			children = (
+				A8F88A5E2324414B00611F61 /* TodayViewController.swift */,
+				A8F88A602324414B00611F61 /* MainInterface.storyboard */,
+				A8F88A632324414B00611F61 /* Info.plist */,
+			);
+			path = todaywidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F88A092324407A00611F61 /* SecondWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F88A272324407C00611F61 /* Build configuration list for PBXNativeTarget "SecondWallet" */;
+			buildPhases = (
+				A8F88A062324407A00611F61 /* Sources */,
+				A8F88A072324407A00611F61 /* Frameworks */,
+				A8F88A082324407A00611F61 /* Resources */,
+				A8F88A54232440CB00611F61 /* Embed Watch Content */,
+				A8F88A6A2324414B00611F61 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F88A4B232440CB00611F61 /* PBXTargetDependency */,
+				A8F88A652324414B00611F61 /* PBXTargetDependency */,
+			);
+			name = SecondWallet;
+			productName = Pocketholder;
+			productReference = A8F88A0A2324407A00611F61 /* SecondWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F88A1D2324407C00611F61 /* SecondWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F88A2A2324407C00611F61 /* Build configuration list for PBXNativeTarget "SecondWalletTests" */;
+			buildPhases = (
+				A8F88A1A2324407C00611F61 /* Sources */,
+				A8F88A1B2324407C00611F61 /* Frameworks */,
+				A8F88A1C2324407C00611F61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F88A202324407C00611F61 /* PBXTargetDependency */,
+			);
+			name = SecondWalletTests;
+			productName = PocketholderTests;
+			productReference = A8F88A1E2324407C00611F61 /* SecondWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8F88A2E232440C900611F61 /* watchapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F88A51232440CB00611F61 /* Build configuration list for PBXNativeTarget "watchapp" */;
+			buildPhases = (
+				A8F88A2D232440C900611F61 /* Resources */,
+				A8F88A50232440CB00611F61 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F88A3E232440CA00611F61 /* PBXTargetDependency */,
+			);
+			name = watchapp;
+			productName = watchapp;
+			productReference = A8F88A2F232440C900611F61 /* watchapp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A8F88A3A232440CA00611F61 /* watchapp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F88A4D232440CB00611F61 /* Build configuration list for PBXNativeTarget "watchapp Extension" */;
+			buildPhases = (
+				A8F88A37232440CA00611F61 /* Sources */,
+				A8F88A38232440CA00611F61 /* Frameworks */,
+				A8F88A39232440CA00611F61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchapp Extension";
+			productName = "watchapp Extension";
+			productReference = A8F88A3B232440CA00611F61 /* watchapp Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		A8F88A582324414B00611F61 /* todaywidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F88A672324414B00611F61 /* Build configuration list for PBXNativeTarget "todaywidget" */;
+			buildPhases = (
+				A8F88A552324414B00611F61 /* Sources */,
+				A8F88A562324414B00611F61 /* Frameworks */,
+				A8F88A572324414B00611F61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = todaywidget;
+			productName = todaywidget;
+			productReference = A8F88A592324414B00611F61 /* todaywidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F88A022324407A00611F61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = chrisxu;
+				TargetAttributes = {
+					A8F88A092324407A00611F61 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A8F88A1D2324407C00611F61 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A8F88A092324407A00611F61;
+					};
+					A8F88A2E232440C900611F61 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A8F88A3A232440CA00611F61 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A8F88A582324414B00611F61 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = A8F88A052324407A00611F61 /* Build configuration list for PBXProject "SecondWallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8F88A012324407900611F61;
+			productRefGroup = A8F88A0B2324407A00611F61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F88A092324407A00611F61 /* SecondWallet */,
+				A8F88A1D2324407C00611F61 /* SecondWalletTests */,
+				A8F88A2E232440C900611F61 /* watchapp */,
+				A8F88A3A232440CA00611F61 /* watchapp Extension */,
+				A8F88A582324414B00611F61 /* todaywidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F88A082324407A00611F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F88A182324407B00611F61 /* LaunchScreen.storyboard in Resources */,
+				A8F88A152324407B00611F61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A1C2324407C00611F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A2D232440C900611F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F88A35232440CA00611F61 /* Assets.xcassets in Resources */,
+				A8F88A33232440C900611F61 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A39232440CA00611F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F88A47232440CB00611F61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A572324414B00611F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F88A622324414B00611F61 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F88A062324407A00611F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A826EB0423254DB00096342D /* CardCollectionViewCell.swift in Sources */,
+				A826EB0823257D790096342D /* UIColor+HEX.swift in Sources */,
+				A826EB0F232588910096342D /* CardItem+File.swift in Sources */,
+				A8F88A102324407A00611F61 /* CardListViewController.swift in Sources */,
+				A826EB01232501700096342D /* BarcodeGenerator.swift in Sources */,
+				A8F88A0E2324407A00611F61 /* AppDelegate.swift in Sources */,
+				A826EB0D232588180096342D /* CardItem.swift in Sources */,
+				A826EB0623254FA40096342D /* Reusable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A1A2324407C00611F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F88A232324407C00611F61 /* SecondWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A37232440CA00611F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F88A45232440CA00611F61 /* NotificationController.swift in Sources */,
+				A8F88A43232440CA00611F61 /* ExtensionDelegate.swift in Sources */,
+				A8F88A41232440CA00611F61 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F88A552324414B00611F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A826EB09232583910096342D /* BarcodeGenerator.swift in Sources */,
+				A8F88A5F2324414B00611F61 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F88A202324407C00611F61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F88A092324407A00611F61 /* SecondWallet */;
+			targetProxy = A8F88A1F2324407C00611F61 /* PBXContainerItemProxy */;
+		};
+		A8F88A3E232440CA00611F61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F88A3A232440CA00611F61 /* watchapp Extension */;
+			targetProxy = A8F88A3D232440CA00611F61 /* PBXContainerItemProxy */;
+		};
+		A8F88A4B232440CB00611F61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F88A2E232440C900611F61 /* watchapp */;
+			targetProxy = A8F88A4A232440CB00611F61 /* PBXContainerItemProxy */;
+		};
+		A8F88A652324414B00611F61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F88A582324414B00611F61 /* todaywidget */;
+			targetProxy = A8F88A642324414B00611F61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8F88A162324407B00611F61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F88A172324407B00611F61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A8F88A31232440C900611F61 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F88A32232440C900611F61 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		A8F88A602324414B00611F61 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F88A612324414B00611F61 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8F88A252324407C00611F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8F88A262324407C00611F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F88A282324407C00611F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63ERV4LN9;
+				INFOPLIST_FILE = "SecondWallet/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.chrisxu.secondwallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8F88A292324407C00611F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63ERV4LN9;
+				INFOPLIST_FILE = "SecondWallet/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.chrisxu.secondwallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A8F88A2B2324407C00611F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63ERV4LN9;
+				INFOPLIST_FILE = SecondWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.chrisxu.SecondWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecondWallet.app/SecondWallet";
+			};
+			name = Debug;
+		};
+		A8F88A2C2324407C00611F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63ERV4LN9;
+				INFOPLIST_FILE = SecondWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.chrisxu.SecondWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecondWallet.app/SecondWallet";
+			};
+			name = Release;
+		};
+		A8F88A4E232440CB00611F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63ERV4LN9;
+				INFOPLIST_FILE = "watchapp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.chrisxu.secondwallet.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		A8F88A4F232440CB00611F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63ERV4LN9;
+				INFOPLIST_FILE = "watchapp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.chrisxu.secondwallet.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		A8F88A52232440CB00611F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63ERV4LN9;
+				IBSC_MODULE = watchapp_Extension;
+				INFOPLIST_FILE = watchapp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.chrisxu.secondwallet.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		A8F88A53232440CB00611F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63ERV4LN9;
+				IBSC_MODULE = watchapp_Extension;
+				INFOPLIST_FILE = watchapp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.chrisxu.secondwallet.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		A8F88A682324414B00611F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63ERV4LN9;
+				INFOPLIST_FILE = todaywidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.chrisxu.secondwallet.todaywidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8F88A692324414B00611F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63ERV4LN9;
+				INFOPLIST_FILE = todaywidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.chrisxu.secondwallet.todaywidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F88A052324407A00611F61 /* Build configuration list for PBXProject "SecondWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F88A252324407C00611F61 /* Debug */,
+				A8F88A262324407C00611F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F88A272324407C00611F61 /* Build configuration list for PBXNativeTarget "SecondWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F88A282324407C00611F61 /* Debug */,
+				A8F88A292324407C00611F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F88A2A2324407C00611F61 /* Build configuration list for PBXNativeTarget "SecondWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F88A2B2324407C00611F61 /* Debug */,
+				A8F88A2C2324407C00611F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F88A4D232440CB00611F61 /* Build configuration list for PBXNativeTarget "watchapp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F88A4E232440CB00611F61 /* Debug */,
+				A8F88A4F232440CB00611F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F88A51232440CB00611F61 /* Build configuration list for PBXNativeTarget "watchapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F88A52232440CB00611F61 /* Debug */,
+				A8F88A53232440CB00611F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F88A672324414B00611F61 /* Build configuration list for PBXNativeTarget "todaywidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F88A682324414B00611F61 /* Debug */,
+				A8F88A692324414B00611F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F88A022324407A00611F61 /* Project object */;
+}
